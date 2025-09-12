@@ -1,0 +1,23 @@
+from selenium import webdriver
+import time 
+
+driver = webdriver.Chrome() 
+driver.get('http://python.org') 
+print(driver.current_url)
+print()
+print(driver.title)
+print()
+print(driver.name)
+print()
+print(driver.session_id)
+print()
+print(driver.capabilities)
+print()
+print(driver.current_window_handle)
+print()
+print(driver.window_handles)
+driver.execute_script("window.open('https://www.google.com');")
+print()
+print(driver.window_handles)
+time.sleep(30) 
+driver.quit()
