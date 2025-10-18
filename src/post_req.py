@@ -1,7 +1,7 @@
 import requests
 
 url = "https://example.com/login"
-data = {"username": "fukura", "password": "1234"}
+data = {"username": "sample", "password": "1122"}
 res = requests.post(url, data=data)
 
 print(res.status_code)

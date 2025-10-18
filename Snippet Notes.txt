@@ -4,4 +4,4 @@ Set-ExecutionPolicy -Scope Process Bypass
 セレニウム呼び出し
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
-selenium.webdriver.support.expected_conditions as EC
+from selenium.webdriver.support.expected_conditions as EC
